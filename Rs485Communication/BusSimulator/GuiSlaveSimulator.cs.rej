@@ -1,0 +1,44 @@
+diff a/DroneControl_Gesamt/DroneControl_Communication/Rs485Communication/BusSimulator/GuiSlaveSimulator.cs b/DroneControl_Gesamt/DroneControl_Communication/Rs485Communication/BusSimulator/GuiSlaveSimulator.cs	(rejected hunks)
+@@ -20,12 +20,42 @@
+ //FIXME: Backlog bei ReadExisting erstes Telegram ignorieren
+ using CommonInterfaces;
+ 
++<<<<<<< HEAD
+ 
++=======
++<<<<<<< HEAD
++
++=======
++//FIXME: Backlog bei ReadExisting erstes Telegram ignorieren
++>>>>>>> 0553282349f825b4827f530ff64547fa5087f5c8
++>>>>>>> 1d4c8faa21b63fb9a6b398e98c6fda1dedafec1a
+ namespace BusSimulator
+ {
+     public partial class GuiSlaveSimulator : Form
+     {
++<<<<<<< HEAD
+         public string pathSimulationData;
++=======
++<<<<<<< HEAD
++        public string empfangenesTelegram;
++        public string empfangenesTelegramMc02;
++        public GuiTelegram neuesGuiTelegram;
++        public McTelegram _neuesMcTelegram { get; set; }
++
++        public McTelegram GetMcTelegram()
++        {
++            return _neuesMcTelegram;
++=======
++
++        //string IGuiSlaveSimulator.EmpfangenesTelegram
++        //{
++        //    get { return _empfangenesTelegram; }
++        //    set{throw new NotImplementedException();}
++        //}
++
++        //string IGuiSlaveSimulator.EmpfangenesTelegram { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
++
++>>>>>>> 1d4c8faa21b63fb9a6b398e98c6fda1dedafec1a
+         public string empfangenesTelegram;
+         public string empfangenesTelegramMc02;
+         public string empfangenesTelegramBms;

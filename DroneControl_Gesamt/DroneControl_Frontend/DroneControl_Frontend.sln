@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "..\..\DroneControlPart01\Frontend\Frontend.csproj", "{7994B9AF-B3E3-4B4F-9E32-D7A17EBE4DCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F08F9FB-2739-4B5E-8240-E69D3125570A} = {4F08F9FB-2739-4B5E-8240-E69D3125570A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSimulator", "..\..\Rs485Communication\BusSimulator\BusSimulator.csproj", "{46C636FC-B8DD-40BE-A996-FDFE8E40A63C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonInterfaces", "..\..\Rs485Communication\CommonInterfaces\CommonInterfaces.csproj", "{1FDFA85D-6141-4FF9-85CF-0A052AA4F044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterManager", "..\..\Rs485Communication\Rs485Communication\MasterManager.csproj", "{86A9BBB1-0547-4289-918A-F98025A1DD63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RsCommunication", "..\..\Rs485Communication\RsCommunication\RsCommunication.csproj", "{15D49B29-20B0-444A-B627-46A9BCBBF90A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlaveManager", "..\..\Rs485Communication\SlaveManager\SlaveManager.csproj", "{23E314A6-5EC1-4CF1-A000-7DA7D611C6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonInterfacesLogic", "..\..\DroneControlLogic\CommonInterfaces\CommonInterfacesLogic.csproj", "{165EF512-5950-4E7B-A72F-8C24E6FD3CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorManagement", "..\..\DroneControlLogic\MotorManagement\MotorManagement.csproj", "{21B5FB46-0A91-4BD9-BA70-ECD63AFFEBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\..\DroneControlLogic\DroneControlLogic\Logic.csproj", "{4F08F9FB-2739-4B5E-8240-E69D3125570A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatteryManagement", "..\..\DroneControlLogic\BatteryManagement\BatteryManagement.csproj", "{2A82DF95-91EB-4B0E-91CA-D2083D72D66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7994B9AF-B3E3-4B4F-9E32-D7A17EBE4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7994B9AF-B3E3-4B4F-9E32-D7A17EBE4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7994B9AF-B3E3-4B4F-9E32-D7A17EBE4DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7994B9AF-B3E3-4B4F-9E32-D7A17EBE4DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C636FC-B8DD-40BE-A996-FDFE8E40A63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C636FC-B8DD-40BE-A996-FDFE8E40A63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C636FC-B8DD-40BE-A996-FDFE8E40A63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C636FC-B8DD-40BE-A996-FDFE8E40A63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDFA85D-6141-4FF9-85CF-0A052AA4F044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDFA85D-6141-4FF9-85CF-0A052AA4F044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDFA85D-6141-4FF9-85CF-0A052AA4F044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDFA85D-6141-4FF9-85CF-0A052AA4F044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A9BBB1-0547-4289-918A-F98025A1DD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A9BBB1-0547-4289-918A-F98025A1DD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A9BBB1-0547-4289-918A-F98025A1DD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A9BBB1-0547-4289-918A-F98025A1DD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D49B29-20B0-444A-B627-46A9BCBBF90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D49B29-20B0-444A-B627-46A9BCBBF90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D49B29-20B0-444A-B627-46A9BCBBF90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D49B29-20B0-444A-B627-46A9BCBBF90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E314A6-5EC1-4CF1-A000-7DA7D611C6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E314A6-5EC1-4CF1-A000-7DA7D611C6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E314A6-5EC1-4CF1-A000-7DA7D611C6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E314A6-5EC1-4CF1-A000-7DA7D611C6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165EF512-5950-4E7B-A72F-8C24E6FD3CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165EF512-5950-4E7B-A72F-8C24E6FD3CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165EF512-5950-4E7B-A72F-8C24E6FD3CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165EF512-5950-4E7B-A72F-8C24E6FD3CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B5FB46-0A91-4BD9-BA70-ECD63AFFEBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B5FB46-0A91-4BD9-BA70-ECD63AFFEBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B5FB46-0A91-4BD9-BA70-ECD63AFFEBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B5FB46-0A91-4BD9-BA70-ECD63AFFEBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F08F9FB-2739-4B5E-8240-E69D3125570A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F08F9FB-2739-4B5E-8240-E69D3125570A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F08F9FB-2739-4B5E-8240-E69D3125570A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F08F9FB-2739-4B5E-8240-E69D3125570A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A82DF95-91EB-4B0E-91CA-D2083D72D66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A82DF95-91EB-4B0E-91CA-D2083D72D66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A82DF95-91EB-4B0E-91CA-D2083D72D66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A82DF95-91EB-4B0E-91CA-D2083D72D66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79EACDAD-EA05-4D4E-AF33-BD72C2F1B9C2}
+	EndGlobalSection
+EndGlobal
